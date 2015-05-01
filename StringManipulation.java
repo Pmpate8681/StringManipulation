@@ -35,7 +35,8 @@ public class StringManipulation{
    }
   
   // A method that checks to see if a String is empty
-  private boolean isString(int size){
+  private boolean isString(int size)
+  {
     return size > 0;
   }
 }
