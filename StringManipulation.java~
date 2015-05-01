@@ -1,0 +1,28 @@
+public class StringManipulation{
+  
+  public String reverseString(String word){
+    
+    if(isString(word.length()))
+    {
+      char[] enteredWord = word.toCharArray();
+      char[] reversedWord = new char[word.length()];
+      
+      for(int i = enteredWord.length-1; i >= 0; i--)
+      {
+        for(int j = 0; j < word.length(); j++)
+        {
+          reversedWord[j] = enteredWord[i];
+        }
+      }
+    }
+    
+  }
+  
+  // A method that checks to see if a String is empty
+  private boolean isString(int size){
+    return size > 0;
+  }
+  
+  
+  
+}
